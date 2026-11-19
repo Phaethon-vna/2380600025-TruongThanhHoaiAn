@@ -1,0 +1,442 @@
+BÀI TẬP: ĐỌC SÁCH – FLUTTER FOR JOBSEEKERS (HANS KOKX)
+Chương 1: Giới thiệu về Flutter
+1.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Lịch sử tóm tắt về ứng dụng & phát triển ứng dụng đa nền tảng
+
+Giải pháp phát triển đa nền tảng mới (Dart & Flutter)
+
+Sự phát triển nhanh chóng của Flutter (Sky, Flutter 1.0, 2.0, 3.0, 3.7, 3.10)
+
+Lý do lập trình viên đổ xô sang Flutter & Hướng đi tương lai
+
+Kết luận & Tài liệu tham khảo
+
+1.2. Chú thích chữ dưới ảnh
+Hình 1.1: Biểu trưng của ngôn ngữ Dart
+
+Hình 1.2: Biểu trưng của Flutter
+
+Hình 1.3: Biểu trưng của dự án Hummingbird (Flutter cho Web)
+
+Hình 1.4: Hình ảnh công bố ra mắt Flutter 2.0
+
+Hình 1.5: Hình ảnh công bố ra mắt Flutter 3
+
+Hình 1.6: Hình ảnh thông báo sự kiện Flutter Forward
+
+Chương 2: Cơ hội thị trường cho lập trình viên Flutter
+2.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Sự tăng trưởng của Flutter trên thị trường (Google Trends)
+
+Ai đang sử dụng Flutter và dùng để làm gì?
+
+Nghiên cứu tình huống (Case Studies):
+
+Alibaba (Xianyu)
+
+BMW
+
+ByteDance
+
+eBay
+
+Toyota
+
+Google
+
+Kết luận & Tài liệu tham khảo
+
+2.2. Chú thích chữ dưới ảnh
+Hình 2.1: Mức độ phổ biến tìm kiếm "Flutter" so với "Swift" trên Google toàn cầu
+
+Hình 2.2: Mức độ phổ biến tìm kiếm "Flutter" so với "Kotlin" trên Google toàn cầu
+
+Hình 2.3: Mức độ phổ biến tìm kiếm "Flutter" so với "React Native" trên Google toàn cầu
+
+Hình 2.4: Mức độ phổ biến tìm kiếm "Flutter" so với các đối thủ cạnh tranh trên Google toàn cầu
+
+Hình 2.5: Ảnh chụp màn hình các trang viết bằng Flutter trong ứng dụng Xianyu (Alibaba)
+
+Hình 2.6: Minh họa việc eBay giảm khối lượng công việc cho kỹ sư nhờ sử dụng Flutter
+
+Hình 2.7: Trải nghiệm giao diện màn hình giải trí trên xe hơi mới của Toyota
+
+Hình 2.8: Một số ứng dụng của Google được viết bằng Flutter
+
+Hình 2.9: Linh vật Dash của Flutter
+
+Chương 3: Cài đặt Flutter và cấu hình IDE
+3.1. Các đề mục chính
+Giới thiệu, Cấu trúc, Mục tiêu & Công cụ cần thiết
+
+Bắt đầu trên Windows (PowerShell, Git, Visual Studio, Android Studio, Biến môi trường)
+
+Bắt đầu trên macOS (Xcode, Android Studio, CocoaPods, Biến môi trường)
+
+Thông tin bổ sung cho thiết bị dùng chip Apple Silicon (M1, M2,...)
+
+Cài đặt và cấu hình Visual Studio Code
+
+Xây dựng và chạy ứng dụng Flutter đầu tiên
+
+Kết luận & Đọc thêm
+
+3.2. Chú thích chữ dưới ảnh
+Hình 3.1: PowerShell trong Start Menu trên Windows 10 và Windows 11
+
+Hình 3.2: Xác minh cài đặt Git thành công trên Windows 10
+
+Hình 3.3: Chọn đúng gói công cụ (workload) trong quá trình cài đặt Visual Studio
+
+Hình 3.4: Cửa sổ chính của Android Studio
+
+Hình 3.5: Chọn các thành phần cần thiết để cài đặt trong Android Studio
+
+Hình 3.6: Cửa sổ quản lý Biến môi trường (Environment Variables)
+
+Hình 3.7: Công cụ nền tảng Android SDK đã được thêm vào biến Path
+
+Hình 3.8: Sao chép kho lưu trữ Flutter thành công bằng PowerShell
+
+Hình 3.9: Thêm Flutter vào biến môi trường Path trên Windows
+
+Hình 3.10: Lệnh flutter doctor chạy hoàn tất lần đầu tiên
+
+Hình 3.11: Thêm Android SDK platform-tools vào biến PATH trên macOS
+
+Hình 3.12: Trình quản lý thiết bị ảo Android (AVD Manager)
+
+Hình 3.13: Điều chỉnh dung lượng bộ nhớ trong của thiết bị ảo AVD mới
+
+Hình 3.14: Cài đặt Flutter thông qua dòng lệnh trên macOS
+
+Hình 3.15: Thêm Flutter vào biến PATH trên macOS
+
+Hình 3.16: Lệnh flutter doctor hoàn tất mà không có lỗi
+
+Hình 3.17: Giao diện quản lý tiện ích mở rộng (Extensions) trong Visual Studio Code
+
+Hình 3.18: Giao diện Visual Studio Code khi mở một dự án Flutter
+
+Hình 3.19: Tùy chọn chọn thiết bị chạy thử trong Visual Studio Code
+
+Hình 3.20: Ứng dụng mẫu Flutter demo chạy trên thiết bị ảo Android
+
+Chương 4: Giới thiệu về Widgets
+4.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Khám phá nhanh ứng dụng Flutter mặc định
+
+Widget là gì và được vẽ lên màn hình như thế nào?
+
+Stateless Widgets (Container, Column, Row, Text, Center) & Tạo Custom Stateless Widget
+
+Stateful Widgets & Vòng đời State
+
+Inherited Widgets (Theme, MediaQuery, Navigator)
+
+Giới thiệu về BuildContext và 3 cây (Widget, Element, Render)
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính & Đọc thêm
+
+4.2. Chú thích chữ dưới ảnh
+Hình 4.1: Kết quả của đoạn mã thử nghiệm chạy dưới dạng ứng dụng Windows
+
+Hình 4.2: Sơ đồ cây widget từ đoạn mã ví dụ
+
+Hình 4.3: Cây widget thực tế mà Flutter xây dựng từ ví dụ
+
+Hình 4.4: Thông báo lỗi xảy ra khi kích thước widget vượt quá ràng buộc (constraints) cho phép
+
+Hình 4.5: Kết quả hiển thị của widget Container từ ví dụ
+
+Hình 4.6: Sử dụng widget Row để căn chỉnh hai widget con
+
+Hình 4.7: Đổi từ Row sang Column, thêm widget con và điều chỉnh căn lề
+
+Hình 4.8: Hiển thị văn bản sử dụng kiểu chữ mặc định (DefaultTextStyle)
+
+Hình 4.9: Ghi đè kiểu chữ mặc định bằng TextStyle tùy chỉnh
+
+Hình 4.10: Văn bản được trang trí kiểu cách nâng cao
+
+Hình 4.11: Định dạng văn bản nội tuyến kết hợp nhiều kiểu chữ khác nhau (TextSpan)
+
+Hình 4.12: Flutter tự động xuống dòng văn bản theo mặc định
+
+Hình 4.13: Hiệu ứng làm mờ dần (fade) phần văn bản bị tràn khung
+
+Hình 4.14: Cắt gọn phần văn bản bị tràn khung bằng dấu ba chấm (ellipsis)
+
+Hình 4.15: Căn giữa phần tử dễ dàng trong Flutter với widget Center
+
+Hình 4.16: Minh họa vấn đề truyền dữ liệu xuống các nhánh con trong cây widget
+
+Hình 4.17: Cây widget ví dụ minh họa cho BuildContext
+
+Hình 4.18: Cách cây widget ánh xạ sang cây element (Element tree)
+
+Hình 4.19: Mối quan hệ giữa cả ba cây (Widget tree, Element tree và Render tree)
+
+Chương 5: Xử lý nhập liệu người dùng
+5.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Các loại nút bấm (Buttons: CupertinoButton, OutlinedButton, ElevatedButton, TextButton, IconButton, GestureDetector)
+
+Thu thập văn bản nhập vào (Capturing Text Input: TextField, CupertinoTextField, TextEditingController, inputFormatters)
+
+Bộ chọn, bộ lọc và danh sách thả xuống (Pickers, Selectors, Dropdowns)
+
+Radio, Checkbox, Switch và Segmented Controls
+
+Thanh trượt (Sliders)
+
+Forms và FormFields
+
+Xây dựng biểu mẫu đăng ký đơn giản (Signup Form)
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính & Đọc thêm
+
+5.2. Chú thích chữ dưới ảnh
+Hình 5.1: Các trạng thái khác nhau của một CupertinoButton
+
+Hình 5.2: Minh họa sự thay đổi trạng thái của OutlinedButton khi chạm vào góc dưới bên phải
+
+Hình 5.3: Biến thể có kèm biểu tượng (icon) của OutlinedButton
+
+Hình 5.4: Một nút bấm ElevatedButton
+
+Hình 5.5: Một nút bấm TextButton đơn giản
+
+Hình 5.6: Trạng thái mặc định (trái) và trạng thái di chuột qua (phải) của IconButton với hình Dash
+
+Hình 5.7: Ô nhập TextField (trên) và CupertinoTextField (dưới) sau khi nhập văn bản
+
+Hình 5.8: Thêm biểu tượng tiền tố (prefix) và hậu tố (suffix) vào từng kiểu ô nhập văn bản
+
+Hình 5.9: Bộ chọn ngày (Date picker) theo phong cách Material
+
+Hình 5.10: Bộ chọn giờ (Time picker) theo phong cách Material
+
+Hình 5.11: Bộ chọn ngày kiểu Cupertino áp dụng giao diện tối (dark theme)
+
+Hình 5.12: Bộ chọn bộ đếm thời gian (Timer picker) kiểu Cupertino ở giao diện tối
+
+Hình 5.13: Bộ chọn danh sách mục tùy ý (CupertinoPicker) ở giao diện tối
+
+Hình 5.14: Danh sách thả xuống (DropdownButton) theo phong cách Material
+
+Hình 5.15: Các nút chọn Radio theo phong cách Material
+
+Hình 5.16: Điều khiển phân đoạn (CupertinoSegmentedControl) kiểu Cupertino
+
+Hình 5.17: Điều khiển phân đoạn trượt (CupertinoSlidingSegmentedControl) kiểu Cupertino
+
+Hình 5.18: Hộp kiểm (Checkbox) ở các trạng thái đã chọn, chưa chọn và trạng thái thứ ba (tristate)
+
+Hình 5.19: Ví dụ về nút gạt CupertinoSwitch
+
+Hình 5.20: Nút gạt (Switch) theo phong cách Material
+
+Hình 5.21: Thanh trượt Material ở trạng thái mặc định và trạng thái đang kéo có nhãn hiển thị giá trị
+
+Hình 5.22: Thanh trượt theo phong cách Cupertino
+
+Hình 5.23: Giao diện biểu mẫu đăng ký (Signup form) hoàn chỉnh
+
+Chương 6: Sử dụng thư viện bên thứ 3 và tài nguyên ngoài
+6.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Tìm hiểu tệp pubspec.yaml
+
+Thêm hình ảnh, phông chữ và các tài nguyên khác (Assets & Fonts)
+
+Hệ thống quản lý gói Pub (pub.dev)
+
+Cách tìm kiếm các gói thư viện hữu ích (Likes, Popularity, Pub Points)
+
+Sử dụng gói thư viện để phát âm thanh (just_audio)
+
+Một số gói Pub phổ biến khác (shared_preferences, url_launcher, dio, flutter_bloc, isar)
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính, Bảng lệnh tham khảo & Đọc thêm
+
+6.2. Chú thích chữ dưới ảnh
+Hình 6.1: Kết quả tìm kiếm gói "audio" trên trang pub.dev
+
+Hình 6.2: Các kết quả tìm kiếm mở rộng cho từ khóa "audio" trên pub.dev
+
+Hình 6.3: Kết quả tìm kiếm gói thư viện "just_audio" trên pub.dev
+
+Hình 6.4: Trang thông tin chi tiết của gói "just_audio" trên pub.dev
+
+Hình 6.5: Danh sách các gói thư viện phổ biến nhất trên pub.dev
+
+Chương 7: Làm việc với API và tác vụ bất đồng bộ
+7.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Khái niệm về Future (Đồng bộ vs. Bất đồng bộ, async/await)
+
+Gửi yêu cầu dữ liệu từ API (HTTP GET)
+
+Phân loại và xử lý phản hồi từ API (JSON Parsing)
+
+Gửi dữ liệu lên API (HTTP POST)
+
+Các widget bất đồng bộ của Flutter (FutureBuilder, StreamBuilder)
+
+Sinks và Streams
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính & Đọc thêm
+
+Chương 8: Điều hướng và Định tuyến (Navigation and Routing)
+8.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Thảo luận chung về các khái niệm điều hướng và định tuyến
+
+Giới thiệu về Navigator 1.0
+
+Định tuyến sử dụng Named Routes
+
+Truyền tham số vào một Route (Passing Arguments)
+
+Trả dữ liệu về từ một màn hình (Returning Data)
+
+Hiệu ứng chuyển cảnh Widget giữa các Route (Hero animation)
+
+Giới thiệu về Navigator 2.0 — Router API
+
+Sử dụng các gói thư viện hỗ trợ định tuyến
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính & Đọc thêm
+
+Chương 9: Quản lý trạng thái và BLoC (State Management and the BLoC)
+9.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Trạng thái tạm thời (Ephemeral State) so với Trạng thái ứng dụng (App State)
+
+Một số bước chuẩn bị trước khi bắt đầu
+
+Giải thích ngắn gọn một số khái niệm mới
+
+Sử dụng InheritedWidget để quản lý App State
+
+Sử dụng gói Provider để quản lý App State
+
+Sử dụng Cubit của BLoC để quản lý App State
+
+Sử dụng BLoC để quản lý App State
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính & Đọc thêm
+
+Chương 10: Tính phản hồi và Các lưu ý đặc thù nền tảng
+10.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Xây dựng bố cục đáp ứng (Responsive Layouts)
+
+Lợi ích và hạn chế của thư viện dart:io
+
+Biểu tượng ứng dụng (App Icons) và Màn hình chờ (Splash Screens)
+
+Các ngôn ngữ thiết kế: Material, Cupertino, Yaru và Fluent UI
+
+Mô hình điều hướng đặc thù theo từng nền tảng
+
+Sử dụng các gói thư viện để xây dựng giao diện đa nền tảng
+
+Kết luận, Câu hỏi ôn tập & Đọc thêm
+
+Chương 11: Gỡ lỗi, Xử lý sự cố và Tối ưu hiệu năng
+11.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Các khái niệm về gỡ lỗi (Debugging) và xử lý sự cố (Troubleshooting)
+
+Ghi nhật ký đầu ra vào Debug Console
+
+Đặt điểm dừng (Breakpoints) và kiểm tra biến khi chạy (Runtime Variables)
+
+Xử lý ngoại lệ (Handling Exceptions)
+
+Giới thiệu về Flutter DevTools
+
+Xác định các vấn đề về hiệu năng
+
+Khám phá chế độ Profile Mode
+
+Khi nào một ListView không phải là một ListView
+
+Tối ưu hóa Widgets
+
+Kết luận, Câu hỏi ôn tập & Thuật ngữ chính
+
+Chương 12: Xây dựng ứng dụng đầu tiên của bạn
+12.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Giới thiệu về ứng dụng sẽ xây dựng
+
+Hiểu các yêu cầu kỹ thuật
+
+Xây dựng bộ khung (Skeleton) cho ứng dụng
+
+Lớp WeatherIcon
+
+Sinh mã tự động (Code Generation)
+
+Xây dựng tầng giao tiếp API (API Layer)
+
+Hoàn thiện ứng dụng
+
+Kết luận, Câu hỏi ôn tập, Thuật ngữ chính, Bảng lệnh tham khảo, Đọc thêm & Tài liệu tham khảo
+
+Chương 13: Tìm kiếm việc làm Flutter
+13.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Cách "hack" hệ thống và khiến công việc tự tìm đến bạn
+
+Hỏi & Đáp (Q&A) cùng các nhà tuyển dụng Flutter hàng đầu
+
+Kết luận
+
+Chương 14: Chuẩn bị và Chinh phục buổi phỏng vấn
+14.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Quy trình phỏng vấn từ đầu đến cuối
+
+Những gì cần mong đợi trong buổi phỏng vấn kỹ thuật (Technical Interview)
+
+Phỏng vấn mức độ phù hợp văn hóa (Culture Fit Interview): Đánh giá công ty và được đánh giá
+
+Đàm phán lương thưởng (Negotiating Compensation)
+
+Trả lời gần 150 câu hỏi phỏng vấn mẫu
+
+Kết luận
+
+Chương 15: Chặng đường phía trước
+15.1. Các đề mục chính
+Giới thiệu, Cấu trúc & Mục tiêu
+
+Cách chuẩn bị cho công việc mới của bạn
+
+Mẹo làm việc nhóm và cộng tác với các lập trình viên khác
+
+Các kỹ năng bổ sung bạn cần tự trau dồi
+
+Gợi ý để phát triển sự nghiệp xa hơn
+
+Kết luận, Các liên kết cộng đồng Flutter & Chỉ mục (Index)
